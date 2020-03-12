@@ -68,18 +68,136 @@ h1, h2, h3, h4, h5 {
 /* CSS for wole page */
 
 
-
 /* CSS for nav section */
 
+.navigation a{
+	margin:0 4.2%;
+	text-decoration: none;
+	width: 100%;
+}
+.logo{
+	text-align: "right";
+}
 
+/* CSS for first image */
+
+.services-header-img{
+	text-align: "center";
+	width: 100%
+}
 
 /* CSS for header */
 
-
+header{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+h1{
+	font-size: 30px;
+}
 
 /* CSS for main body container */
+h3{
+	margin:20px 0;
+	margin-left: 20px;
+}
+p{
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+}
+
+button{
+	margin-block-end: 20px;
+	margin-left: 20px;
+	width: 140px;
+	height: 40px
+}
+.digitaldesign{
+	width: 400px;
+	height: 300px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+.about{
+	width: 400px;
+	height: 300px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+
+.uxui{
+	width: 400px;
+	height: 300px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+
+.digital{
+	width: 400px;
+	height: 200px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+
+.web{
+	width: 400px;
+	height: 200px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+.ios{
+	width: 400px;
+	height: 300px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+
+.firstrow{
+	display:flex;
+	justify-content: space-between;
+	/* justify-content: space-evenly; */
+}
+.secondrow{
+	display:flex;
+	justify-content: space-between;
+}
 
 
+
+
+
+
+
+/* .secondrow{
+	display:flex;
+	justify-content: space-between; 
+}
+.thirdrow{
+	display:flex;
+	justify-content: space-between;
+}  */
+
+
+
+/* .firstrow{
+	display: flex;
+}
+
+.firstrow digitaldesign{
+	border: 1px bold gray;
+}
+
+.digitaldesign{
+	border: 1px bold gray; */
+}
 
 /* CSS for bottom container  */
 
