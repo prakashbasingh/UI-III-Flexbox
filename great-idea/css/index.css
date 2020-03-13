@@ -66,9 +66,15 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* CSS for wole page */
+#body{
 
+	margin:50px 50px;
+}
 
 /* CSS for nav section */
+.navbar{
+margin: 20px 0;
+}
 
 .navigation a{
 	margin:0 4.2%;
@@ -109,11 +115,12 @@ p{
 }
 
 button{
-	margin-block-end: 20px;
+	margin-bottom: 20px;
 	margin-left: 20px;
 	width: 140px;
 	height: 40px
 }
+
 .digitaldesign{
 	width: 400px;
 	height: 300px;
@@ -121,37 +128,30 @@ button{
 	background: lightgray;
 	margin: 20px 0;
 }
-.about{
-	width: 400px;
-	height: 300px;
-	border: 1px solid gray;
-	background: lightgray;
-	margin: 20px 0;
-}
-
 .uxui{
 	width: 400px;
 	height: 300px;
 	border: 1px solid gray;
 	background: lightgray;
 	margin: 20px 0;
-}
+} 
 
-.digital{
+.digitalmarketing{
 	width: 400px;
-	height: 200px;
+	height: 300px;
 	border: 1px solid gray;
 	background: lightgray;
-	margin: 20px 0;
+	margin: 10px 0;
 }
 
 .web{
 	width: 400px;
-	height: 200px;
+	height: 300px;
 	border: 1px solid gray;
 	background: lightgray;
-	margin: 20px 0;
+	margin: 10px 0;
 }
+
 .ios{
 	width: 400px;
 	height: 300px;
@@ -159,49 +159,39 @@ button{
 	background: lightgray;
 	margin: 20px 0;
 }
+.android{
+	width: 400px;
+	height: 300px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+
 
 .firstrow{
-	display:flex;
+	display: flex;
 	justify-content: space-between;
-	/* justify-content: space-evenly; */
 }
 .secondrow{
 	display:flex;
 	justify-content: space-between;
 }
 
-
-
-
-
-
-
-/* .secondrow{
-	display:flex;
-	justify-content: space-between; 
-}
 .thirdrow{
 	display:flex;
 	justify-content: space-between;
-}  */
-
-
-
-/* .firstrow{
-	display: flex;
-}
-
-.firstrow digitaldesign{
-	border: 1px bold gray;
-}
-
-.digitaldesign{
-	border: 1px bold gray; */
-}
-
+} 
+ 
 /* CSS for bottom container  */
-
-
+.texts{
+	width: 400px;
+	height: 300px;
+	
+}
+#bottomcontainer{
+	display: flex;
+	justify-content: space-between;
+}
 
 /* CSS for footer */
 .footer{
