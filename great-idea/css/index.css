@@ -64,3 +64,151 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* CSS for wole page */
+body{
+	margin:5px 420px;
+	padding: 50px
+}
+
+/* CSS for nav section */
+.navbar{
+	text-align: center;
+	margin: 20px 0;
+}
+
+
+
+.navigation a{
+	margin:0 3.5%;
+	text-decoration: none;
+	width: 100%;
+}
+.logo{
+	text-align: "right";
+}
+
+/* CSS for first image */
+#firstimage{
+	margin: 0 40px
+}
+.services-header-img{
+	text-align: "center";
+	width: 100%;	
+}
+
+/* CSS for header */
+
+header{
+	width: 95%;
+	margin: 20px 20px;
+}
+h1{
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+/* CSS for main body container */
+h3{
+	margin:20px 0;
+	margin-left: 20px;
+	text-align: left;
+}
+p{
+	margin: 20px 20px
+}
+
+button{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 140px;
+	height: 40px
+}
+
+.digitaldesign{
+	width: 400px;
+	height: 230px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+.uxui{
+	width: 400px;
+	height: 230px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0px;
+} 
+
+.digitalmarketing{
+	width: 400px;
+	height: 230px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 10px 0;
+}
+
+.web{
+	width: 400px;
+	height: 230px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 10px 0;
+}
+
+.ios{
+	width: 400px;
+	height: 230px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+}
+.android{
+	width: 400px;
+	height: 230px;
+	border: 1px solid gray;
+	background: lightgray;
+	margin: 20px 0;
+
+}
+
+
+.firstrow{
+	display: flex;
+	
+	justify-content: space-around;
+}
+.secondrow{
+	display:flex;
+	justify-content: space-around;
+}
+
+.thirdrow{
+	display:flex;
+	justify-content: space-around;
+} 
+ 
+/* CSS for bottom container  */
+.texts{
+	width: 40%;
+	margin-top: 20px;
+}	
+
+.secondimage{
+	width: 40;
+	float: right
+}
+	
+
+#bottomcontainer{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+/* CSS for footer */
+.footer{
+
+	text-align: center;
+	margin: 10px auto;
+}
